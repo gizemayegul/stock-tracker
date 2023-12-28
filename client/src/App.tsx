@@ -12,7 +12,6 @@ function App() {
       try {
         const response = await axios.get(API_URL);
         setData(response.data);
-        console.log(response);
       } catch (err) {
         console.log(err);
       }
